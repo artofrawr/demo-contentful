@@ -32,7 +32,7 @@ const Footer = ({ description, source }) => {
         {description}
       </Text>
       <Box display="flex" flexDirection="row">
-        {router.route !== '/' && (
+        {router.asPath !== '/' && (
           <LinkButton href="/" mr="15px" variant="light">
             Home
           </LinkButton>
@@ -56,8 +56,8 @@ Footer.propTypes = {
 }
 
 Footer.defaultProps = {
-  description: 'Just another Next.js app template.',
-  source: 'https://github.com/artofrawr/template-nextjs',
+  description: 'Modular pages controlled via headless CMS.',
+  source: 'https://github.com/artofrawr/demo-contentful',
 }
 
 export default Footer
