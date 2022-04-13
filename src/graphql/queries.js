@@ -5,11 +5,11 @@ import { FRAGMENT_COMPONENTS } from './fragments'
 
 export const PAGE_QUERY_BYSLUG = gql`
   query GetPageBySlug($slug: String!) {
-    pageCollection(where: { slug: $slug }) {
+    pageCollection(where: { slug: $slug }, limit: 1) {
       items {
         name
         slug
-        componentsCollection {
+        componentsCollection(limit: 100) {
           total
           items {
             __typename

@@ -7,6 +7,11 @@ export const FRAGMENT_HERO = gql`
     }
     title
     copy
+    ctaText
+    ctaHref
+    image {
+      url
+    }
   }
 `
 
@@ -14,6 +19,15 @@ export const FRAGMENT_FEATURES = gql`
   fragment featuresFields on Features {
     sys {
       id
+    }
+    featuresCollection(limit: 3) {
+      items {
+        sys {
+          id
+        }
+        title
+        copy
+      }
     }
   }
 `

@@ -3,6 +3,7 @@ import ModularComponents from 'components/contentful/ModularComponents'
 import { getPagePropsBySlug } from 'graphql/queries'
 import { get } from 'lodash'
 import { useRouter } from 'next/router'
+import { Box } from '@chakra-ui/react'
 
 const WildcardPage = () => {
   const router = useRouter()
@@ -10,7 +11,9 @@ const WildcardPage = () => {
 
   return (
     <>
-      <ModularComponents slug={slug} />
+      <Box pt="50px">
+        <ModularComponents slug={slug} />
+      </Box>
       <Footer />
     </>
   )
