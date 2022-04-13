@@ -24,7 +24,9 @@ const Hero = ({ title, copy, image, ctaText, ctaHref }) => (
     </GridItem>
     {image?.url && (
       <GridItem colSpan={[12, 12, 6]}>
+        {/* eslint-disable */}
         <img src={image.url} />
+        {/* eslint-enable */}
       </GridItem>
     )}
   </Grid>
