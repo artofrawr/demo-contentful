@@ -18,7 +18,7 @@ const WildcardPage = () => {
 
 export async function getServerSideProps({ query }) {
   const slug = ['', ...get(query, 'slug', [''])].join('/')
-  const props = getPagePropsBySlug(slug)
+  const props = await getPagePropsBySlug(slug)
   return props
 }
 
