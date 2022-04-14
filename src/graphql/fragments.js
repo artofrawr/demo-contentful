@@ -37,6 +37,11 @@ export const FRAGMENT_IMAGE_CONTENT = gql`
     sys {
       id
     }
+    title
+    copy
+    image {
+      url
+    }
   }
 `
 export const FRAGMENT_COMPONENTS = gql`

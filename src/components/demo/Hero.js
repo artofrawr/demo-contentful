@@ -5,7 +5,7 @@ import LinkButton from 'components/button/LinkButton'
 import Grid from './Grid'
 
 const Hero = ({ title, copy, image, ctaText, ctaHref }) => (
-  <Grid pb="50px">
+  <Grid>
     <GridItem colSpan={[12, 12, 6]}>
       <Heading as="h1">{title}</Heading>
       <Text fontSize="18px" lineHeight="1.3" pt="20px">

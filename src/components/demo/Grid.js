@@ -7,6 +7,7 @@ const CustomGrid = ({ children, ...other }) => (
     gap={6}
     px={[6, 12]}
     mx="auto"
+    pb="50px"
     maxWidth="1280px"
     {...other}
   >

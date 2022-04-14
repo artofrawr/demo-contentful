@@ -11,7 +11,7 @@ const WildcardPage = () => {
 
   return (
     <>
-      <Box pt="50px">
+      <Box pt="50px" pb="100px">
         <ModularComponents slug={slug} />
       </Box>
       <Footer />
