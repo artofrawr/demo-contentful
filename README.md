@@ -1,4 +1,4 @@
-# demo-contentful
+# Tech Demo: Modular Pages
 
 [<img src="https://demo-contentful.artofrawr.com/contentful.jpg" width="250" style="border: 1px solid grey" />](https://github.com/artofrawr/demo-contentful)
 
