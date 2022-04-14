@@ -35,7 +35,7 @@ class MyDocument extends Document {
           <meta property="og:site_name" content="The Art of Rawr" />
           <meta
             property="og:description"
-            content="A tech screen demo, using contentful and implemented in Next.js and GraphQL. The 'Art of Rawr' is the digital playground of NYC based tech lead and full stack developer Jens Fischer."
+            content="A tech demo, implemented with Next.js, GraphQL and Contentful. The 'Art of Rawr' is the digital playground of NYC based tech lead and full stack developer Jens Fischer."
           />
         </Head>
         <body>
